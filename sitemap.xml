@@ -3,7 +3,7 @@
 
   <!-- Home page -->
   <url>
-    <loc>https://yourusername.github.io/my-website/</loc>
+    <loc>https://ericmaina254.github.io/my-portfolio/</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- About section -->
   <url>
-    <loc>https://yourusername.github.io/my-website/#about</loc>
+    <loc>https://ericmaina254.github,io/my-portfolio/#about</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
