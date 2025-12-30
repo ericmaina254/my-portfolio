@@ -1,57 +1,91 @@
-/* Projects Section */
-.projects {
-    background-color: #f0f4f8;
-    padding: 40px 20px;
-    margin: 20px;
-    border-radius: 12px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.projects h2 {
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: bold;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
 
-/* Projects Container */
-.projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Project Card */
-.project-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    width: 300px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
+        nav {
+            background-color: #333;
+        }
 
-/* Hover Effect */
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}<div class="project-card">
-    <img src="images/project1.jpg" alt="Project 1" class="project-image">
-    <h3>Personal Portfolio Website</h3>
-    <p>A website I built to showcase my profile, skills, and projects.</p>
-    <a href="#" class="btn project-btn">View Project</a>
-</div>
-.project-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
 
+        nav a:hover {
+            background-color: #555;
+        }
 
-/* Project Card Title & Text */
-.project-card h3 {
-    color: #2
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Simple responsive image example */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <h2>About This Page</h2>
+    <p>This is a clean, functional template for your website. You can add your own text, images, and links here.</p>
+    <p>Replace this content with your real content.</p>
+
+    <!-- Example image -->
+    <img src="example.jpg" alt="Example image">
+</main>
+
+<footer>
+    <p>&copy; 2025 My Website</p>
+</footer>
+
+</body>
+</html>
