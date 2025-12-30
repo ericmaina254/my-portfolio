@@ -1,0 +1,6 @@
+# robots.txt for https://ericmaina254.github.io/my-portfolio/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ericmaina254.github.io/my-portfolio/sitemap.xml
